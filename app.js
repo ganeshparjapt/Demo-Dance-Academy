@@ -6,7 +6,7 @@ const app = express();
 const mongoose = require('mongoose');
 const { strict } = require("assert");
 mongoose.connect('mongodb://localhost/contactDance', { useNewUrlParser: true });
-const port = 8000;
+const port = 80;
 
 //creat schema
 var contactSchema = new mongoose.Schema({
